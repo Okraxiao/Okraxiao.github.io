@@ -32,7 +32,7 @@
     <meta property="og:description" content="mac环境下搭建nacos集群指南">
   
   
-    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/government_gray.svg&lt;/text&gt;&lt;/svg&gt;">
+    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/heart_pink.svg&lt;/text&gt;&lt;/svg&gt;">
   
   <style>
     .DateTagBar {
@@ -57,7 +57,7 @@
       <a href="welcome.html">
         <div class="Navbar__Btn">
           
-            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/government_gray.svg&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/heart_pink.svg&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
           
           <span>本地搭建nacos集群</span>
         </div>
@@ -91,7 +91,7 @@
     </div>
     
       <div class="Header__Icon">
-        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/government_gray.svg&lt;/text&gt;&lt;/svg&gt;"></span>
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;/icons/heart_pink.svg&lt;/text&gt;&lt;/svg&gt;"></span>
       </div>
     
     <h1 class="Header__Title">本地搭建nacos集群</h1>
@@ -299,7 +299,7 @@ server {
 <span class="token code keyword">    location /nacos {
         proxy_pass http://nacos-cluster;
     }</span>
-}</span></span></span></code></pre><pre id="https://www.notion.so/d7bac96d4b7748d5a9490958e59450cc" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span><span class="token function">vim</span> /usr/local/etc/nginx/nginx.conf</span></span></span></code></pre><pre id="https://www.notion.so/3d2f3dcf1ba14f5c93dddf630f1cd6ee" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>nginx <span class="token parameter variable">-t</span> <span class="token comment">#查看修改后的配置是否正确</span></span></span></span></code></pre><pre id="https://www.notion.so/8a083725b70f4177825188844ca3c456" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>brew services restart nginx <span class="token comment">#重启</span></span></span></span></code></pre><div id="https://www.notion.so/6c917ae15eba4d4a8f137f8224d79c65" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">打开：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://localhost/nacos">http://localhost/nacos</a></span></span></p></div><div id="https://www.notion.so/83ec59eecdde40c3bfe5d39ff8c52c42" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><div id="https://www.notion.so/09a03714b83841a29b67cb46bcc7c820" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
+}</span></span></span></code></pre><pre id="https://www.notion.so/d7bac96d4b7748d5a9490958e59450cc" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span><span class="token function">vim</span> /usr/local/etc/nginx/nginx.conf</span></span></span></code></pre><pre id="https://www.notion.so/3d2f3dcf1ba14f5c93dddf630f1cd6ee" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>nginx <span class="token parameter variable">-t</span> <span class="token comment">#查看修改后的配置是否正确</span></span></span></span></code></pre><pre id="https://www.notion.so/8a083725b70f4177825188844ca3c456" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>brew services restart nginx <span class="token comment">#重启</span></span></span></span></code></pre><div id="https://www.notion.so/6c917ae15eba4d4a8f137f8224d79c65" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">打开：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://localhost/nacos">http://localhost/nacos</a></span></span></p></div><div id="https://www.notion.so/83ec59eecdde40c3bfe5d39ff8c52c42" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><div id="https://www.notion.so/09a03714b83841a29b67cb46bcc7c820" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><a id="https://www.notion.so/761331290c054c32b9f1c2e3dc8b4120" class="Page" href="https://www.notion.so/761331290c054c32b9f1c2e3dc8b4120"><div><div class="Page__Icon"><svg viewBox="0 0 30 30" style="width:1.1875em;height:1.1875em;fill:inherit;opacity:0.8"><g><path d="M16,1H4v28h22V11L16,1z M16,3.828L23.172,11H16V3.828z M24,27H6V3h8v10h10V27z M8,17h14v-2H8V17z M8,21h14v-2H8V21z M8,25h14v-2H8V25z"></path></g></svg></div><div class="Page__Title"><span class="SemanticStringArray"><span class="SemanticString">Untitled</span></span></div></div></a></article>
   <footer class="Footer">
   <div>&copy; 欢酱的书房 2022</div>
   <div>&centerdot;</div>
